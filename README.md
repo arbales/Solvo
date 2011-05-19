@@ -1,1 +1,1 @@
-![So what did the Solvo do?](/solvo.png "Solvo")
+![So what did the Solvo do?](https://github.com/arbales/Solvo/raw/master/solvo.png "Solvo")
