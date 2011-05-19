@@ -14,6 +14,8 @@
 		D9B1B5651384D475000734CC /* SolvoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B5641384D475000734CC /* SolvoAppDelegate.m */; };
 		D9B1B5681384D475000734CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5661384D475000734CC /* MainMenu.xib */; };
 		D9B1B5701384D95B000734CC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B56F1384D95B000734CC /* TableViewController.m */; };
+		D9B1B5731384F739000734CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5711384F739000734CC /* README.md */; };
+		D9B1B5741384F739000734CC /* solvo.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5721384F739000734CC /* solvo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D9B1B5671384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D9B1B56E1384D95B000734CC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		D9B1B56F1384D95B000734CC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D9B1B5711384F739000734CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D9B1B5721384F739000734CC /* solvo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = solvo.png; path = ../solvo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		D9B1B5581384D475000734CC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9B1B5711384F739000734CC /* README.md */,
+				D9B1B5721384F739000734CC /* solvo.png */,
 				D9B1B5591384D475000734CC /* Solvo-Info.plist */,
 				D9B1B55A1384D475000734CC /* InfoPlist.strings */,
 				D9B1B55D1384D475000734CC /* Solvo-Prefix.pch */,
@@ -157,6 +163,8 @@
 				D9B1B55C1384D475000734CC /* InfoPlist.strings in Resources */,
 				D9B1B5621384D475000734CC /* Credits.rtf in Resources */,
 				D9B1B5681384D475000734CC /* MainMenu.xib in Resources */,
+				D9B1B5731384F739000734CC /* README.md in Resources */,
+				D9B1B5741384F739000734CC /* solvo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
