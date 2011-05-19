@@ -13,6 +13,7 @@
 		D9B1B5621384D475000734CC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5601384D475000734CC /* Credits.rtf */; };
 		D9B1B5651384D475000734CC /* SolvoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B5641384D475000734CC /* SolvoAppDelegate.m */; };
 		D9B1B5681384D475000734CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5661384D475000734CC /* MainMenu.xib */; };
+		D9B1B5701384D95B000734CC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B56F1384D95B000734CC /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		D9B1B5541384D475000734CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D9B1B5551384D475000734CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D9B1B5561384D475000734CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D9B1B5591384D475000734CC /* Solvo-Info.plist */ = {isa = PBXFileReference; path = "Solvo-Info.plist"; sourceTree = "<group>"; };
+		D9B1B5591384D475000734CC /* Solvo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Solvo-Info.plist"; sourceTree = "<group>"; };
 		D9B1B55B1384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D9B1B55D1384D475000734CC /* Solvo-Prefix.pch */ = {isa = PBXFileReference; path = "Solvo-Prefix.pch"; sourceTree = "<group>"; };
+		D9B1B55D1384D475000734CC /* Solvo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Solvo-Prefix.pch"; sourceTree = "<group>"; };
 		D9B1B55E1384D475000734CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9B1B5611384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D9B1B5631384D475000734CC /* SolvoAppDelegate.h */ = {isa = PBXFileReference; path = SolvoAppDelegate.h; sourceTree = "<group>"; };
+		D9B1B5631384D475000734CC /* SolvoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SolvoAppDelegate.h; sourceTree = "<group>"; };
 		D9B1B5641384D475000734CC /* SolvoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolvoAppDelegate.m; sourceTree = "<group>"; };
 		D9B1B5671384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D9B1B56E1384D95B000734CC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D9B1B56F1384D95B000734CC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				D9B1B5641384D475000734CC /* SolvoAppDelegate.m */,
 				D9B1B5661384D475000734CC /* MainMenu.xib */,
 				D9B1B5581384D475000734CC /* Supporting Files */,
+				D9B1B56E1384D95B000734CC /* TableViewController.h */,
+				D9B1B56F1384D95B000734CC /* TableViewController.m */,
 			);
 			path = Solvo;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				D9B1B55F1384D475000734CC /* main.m in Sources */,
 				D9B1B5651384D475000734CC /* SolvoAppDelegate.m in Sources */,
+				D9B1B5701384D95B000734CC /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
