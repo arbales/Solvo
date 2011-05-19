@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9B1B5521384D475000734CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B1B5511384D475000734CC /* Cocoa.framework */; };
+		D9B1B55C1384D475000734CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B55A1384D475000734CC /* InfoPlist.strings */; };
+		D9B1B55F1384D475000734CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B55E1384D475000734CC /* main.m */; };
+		D9B1B5621384D475000734CC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5601384D475000734CC /* Credits.rtf */; };
+		D9B1B5651384D475000734CC /* SolvoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B1B5641384D475000734CC /* SolvoAppDelegate.m */; };
+		D9B1B5681384D475000734CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9B1B5661384D475000734CC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9B1B54D1384D475000734CC /* Solvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B1B5511384D475000734CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9B1B5541384D475000734CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9B1B5551384D475000734CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9B1B5561384D475000734CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9B1B5591384D475000734CC /* Solvo-Info.plist */ = {isa = PBXFileReference; path = "Solvo-Info.plist"; sourceTree = "<group>"; };
+		D9B1B55B1384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9B1B55D1384D475000734CC /* Solvo-Prefix.pch */ = {isa = PBXFileReference; path = "Solvo-Prefix.pch"; sourceTree = "<group>"; };
+		D9B1B55E1384D475000734CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9B1B5611384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D9B1B5631384D475000734CC /* SolvoAppDelegate.h */ = {isa = PBXFileReference; path = SolvoAppDelegate.h; sourceTree = "<group>"; };
+		D9B1B5641384D475000734CC /* SolvoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolvoAppDelegate.m; sourceTree = "<group>"; };
+		D9B1B5671384D475000734CC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9B1B54A1384D474000734CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B1B5521384D475000734CC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9B1B5421384D474000734CC = {
+			isa = PBXGroup;
+			children = (
+				D9B1B5571384D475000734CC /* Solvo */,
+				D9B1B5501384D475000734CC /* Frameworks */,
+				D9B1B54E1384D475000734CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9B1B54E1384D475000734CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1B54D1384D475000734CC /* Solvo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9B1B5501384D475000734CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1B5511384D475000734CC /* Cocoa.framework */,
+				D9B1B5531384D475000734CC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B1B5531384D475000734CC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1B5541384D475000734CC /* AppKit.framework */,
+				D9B1B5551384D475000734CC /* CoreData.framework */,
+				D9B1B5561384D475000734CC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9B1B5571384D475000734CC /* Solvo */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1B5631384D475000734CC /* SolvoAppDelegate.h */,
+				D9B1B5641384D475000734CC /* SolvoAppDelegate.m */,
+				D9B1B5661384D475000734CC /* MainMenu.xib */,
+				D9B1B5581384D475000734CC /* Supporting Files */,
+			);
+			path = Solvo;
+			sourceTree = "<group>";
+		};
+		D9B1B5581384D475000734CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9B1B5591384D475000734CC /* Solvo-Info.plist */,
+				D9B1B55A1384D475000734CC /* InfoPlist.strings */,
+				D9B1B55D1384D475000734CC /* Solvo-Prefix.pch */,
+				D9B1B55E1384D475000734CC /* main.m */,
+				D9B1B5601384D475000734CC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9B1B54C1384D474000734CC /* Solvo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B1B56B1384D475000734CC /* Build configuration list for PBXNativeTarget "Solvo" */;
+			buildPhases = (
+				D9B1B5491384D474000734CC /* Sources */,
+				D9B1B54A1384D474000734CC /* Frameworks */,
+				D9B1B54B1384D474000734CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solvo;
+			productName = Solvo;
+			productReference = D9B1B54D1384D475000734CC /* Solvo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9B1B5441384D474000734CC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D9B1B5471384D474000734CC /* Build configuration list for PBXProject "Solvo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9B1B5421384D474000734CC;
+			productRefGroup = D9B1B54E1384D475000734CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9B1B54C1384D474000734CC /* Solvo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9B1B54B1384D474000734CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B1B55C1384D475000734CC /* InfoPlist.strings in Resources */,
+				D9B1B5621384D475000734CC /* Credits.rtf in Resources */,
+				D9B1B5681384D475000734CC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9B1B5491384D474000734CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B1B55F1384D475000734CC /* main.m in Sources */,
+				D9B1B5651384D475000734CC /* SolvoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9B1B55A1384D475000734CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B1B55B1384D475000734CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9B1B5601384D475000734CC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B1B5611384D475000734CC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D9B1B5661384D475000734CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9B1B5671384D475000734CC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9B1B5691384D475000734CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9B1B56A1384D475000734CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9B1B56C1384D475000734CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Solvo/Solvo-Prefix.pch";
+				INFOPLIST_FILE = "Solvo/Solvo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9B1B56D1384D475000734CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Solvo/Solvo-Prefix.pch";
+				INFOPLIST_FILE = "Solvo/Solvo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9B1B5471384D474000734CC /* Build configuration list for PBXProject "Solvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B1B5691384D475000734CC /* Debug */,
+				D9B1B56A1384D475000734CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B1B56B1384D475000734CC /* Build configuration list for PBXNativeTarget "Solvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9B1B56C1384D475000734CC /* Debug */,
+				D9B1B56D1384D475000734CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9B1B5441384D474000734CC /* Project object */;
+}
